@@ -9,8 +9,8 @@
         <version>4.0.8</version>
         <relativePath/>
     </parent>
-    <groupId>de.thg.helidon</groupId>
-    <artifactId>fotoanalyzer</artifactId>
+    <groupId>de.thg</groupId>
+    <artifactId>fotoanalyzer-helidon</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 

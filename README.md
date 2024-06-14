@@ -11,7 +11,7 @@ Die Tests laufen in einer Helidon-spezifischen Umgebung (`@HelidonTest`), in der
 ### rename_images
 Um den Service im Container betreiben zu können wurde darauf verzichtet, dass der Service selbst Änderungen an Dateien vornimmt. Stattdessen wird eine Liste von Binär-Dateien hochgeladen. Zurückgegeben wird ein Json-Objekt, dass die ursprünglichen Dateinamen auf geänderte Dateinamen mappt.
 
-Das Hochladen kann über Curl erfolgen (s.u.). Es wird aber auch ein sehr einfacher Web-Client zur Verfügung gestellt, der alle Jpg-Dateien aus einem gegebenen Verzeichnis überträgt und anschließend die übergebenen Dateien umbenennt (`WebClient.class`). Dieser Client kann ausgeführt werden, wenn der Helido-Server gestartet ist.
+Das Hochladen kann über Curl erfolgen (s.u.). Es wird aber auch ein sehr einfacher Web-Client zur Verfügung gestellt, der alle Jpg-Dateien aus einem gegebenen Verzeichnis überträgt und anschließend die übergebenen Dateien umbenennt (`WebClient.class`). Dieser Client kann ausgeführt werden, wenn der Helidon-Server gestartet ist.
 
 Beispiel für den Aufruf per `curl`:
 
